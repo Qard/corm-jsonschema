@@ -14,7 +14,6 @@ describe('validate', function () {
     }
   })
 
-
   // Clear all users after each test
   afterEach(function* () {
     yield User.remove({})
@@ -66,5 +65,23 @@ describe('validate', function () {
       thing.errors[1].should.have.property('property', 'email')
       thing.errors[1].should.have.property('message', 'is required')
     })
+  })
+
+  it('should not serialize errors to json', function* () {
+    var user = new User({
+      name: 1
+    })
+
+    var err
+    try {
+      yield user.save()
+    } catch (e) {
+      err = e
+    }
+
+    should.exist(err)
+    user.should.have.property('errors')
+    var data = JSON.parse(JSON.stringify(user))
+    data.should.not.have.property('errors')
   })
 })
