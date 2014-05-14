@@ -1,0 +1,25 @@
+{
+  "name": "corm-jsonschema",
+  "version": "0.1.0",
+  "description": "JSON Schema validation for corm",
+  "author": "Stephen Belanger <admin@stephenbelanger.com>",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "test": "mocha --harmony"
+  },
+  "keywords": [
+    "corm",
+    "validation",
+    "jsonschema"
+  ],
+  "dependencies": {
+    "jsonschema": "^0.4.0"
+  },
+  "devDependencies": {
+    "co-mocha": "0.0.4",
+    "corm": "^0.2.0",
+    "mocha": "^1.18.2",
+    "should": "^3.3.1"
+  }
+}
