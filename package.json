@@ -23,14 +23,14 @@
     "jsonschema"
   ],
   "dependencies": {
-    "jsonschema": "^0.4.0"
+    "jsonschema": "^1.2.0"
   },
   "devDependencies": {
     "istanbul": "git://github.com/gotwarlost/istanbul.git#harmony",
     "coveralls": "^2.10.0",
-    "co-mocha": "0.0.4",
-    "corm": "^0.2.0",
-    "mocha": "^1.18.2",
-    "should": "^3.3.1"
+    "co-mocha": "1.2.0",
+    "corm": "^2.0.1",
+    "mocha": "^3.5.3",
+    "should": "^13.1.0"
   }
 }
