@@ -1,5 +1,7 @@
 # corm-jsonschema
 
+[![Greenkeeper badge](https://badges.greenkeeper.io/Qard/corm-jsonschema.svg)](https://greenkeeper.io/)
+
 [![build status](https://secure.travis-ci.org/Qard/corm-jsonschema.png)](http://travis-ci.org/Qard/corm-jsonschema) [![Coverage Status](https://coveralls.io/repos/Qard/corm-jsonschema/badge.png)](https://coveralls.io/r/Qard/corm-jsonschema)
 
 Add [JSON Schema](http://tools.ietf.org/html/draft-zyp-json-schema-03) validation to your [corm](https://github.com/Qard/corm) models.
